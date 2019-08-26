@@ -1,0 +1,20 @@
+PROG = 'python -m veriphy'
+DESC = 'Verify file integrity.'
+
+HELP_FILE = 'file to verify'
+HELP_INPT = 'file containing signature'
+HELP_SIGN = 'direct signature'
+HELP_FUNC = 'hash function to use'
+
+ARG_I = '-i'
+ARG_S = '-s'
+ARG_A = '-a'
+ARG_FILE = 'file'
+ARG_INPUT = '--input'
+ARG_SIGN = '--sign'
+
+MSG_SEL_ALG = 'Select algorithm (empty to exit): '
+MSG_NO_ALG = 'No given algorithm...'
+MSG_SIGN = 'Enter signature: '
+MSG_MATCH = '.SIGNATURES MATCH.'
+MSG_NO_MATCH = '!!! SIGNATURES DO NOT MATCH !!!'
